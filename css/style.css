@@ -1,0 +1,169 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Playfair Display', serif;
+}
+
+/*Topbar*/
+.topbar{
+
+padding: 30px 0;
+}
+.container{
+    margin: 0 auto;
+    width: 1200px;
+}
+.logo{
+	width: 30%;
+	float: left;
+}
+.logo img{}
+.menu{
+	width:70%;
+	float: left;
+}
+.menu ul{
+	list-style: none;
+	float: right;
+}
+.menu ul li{
+	display: inline-block;
+	margin-left: 60px;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: green;
+}
+.menu ul li a:hover{
+	color: brown;
+	cursor: pointer;
+
+}
+
+/*Banner*/
+
+.banner{
+
+}
+.banner img{
+	width: 100%;
+}
+/*Single Blog Post Section*/
+
+.Single{
+	padding: 80px 0;
+
+}
+.category, .comment{
+font-family: 'Ubuntu', sans-serif;
+color: #cc9999;
+text-decoration: none;
+font-size: 17px;
+text-transform: uppercase;
+margin-bottom: 30px;
+display: inline-block;
+}
+.Single h1{
+	color: #626262;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.Single p {
+	color: #626262;
+	font-size: 16px;
+	line-height: 24px;
+
+}
+.comment{
+	margin-bottom: 0;
+	margin-top: 30px;
+}
+/*Blog Post Section*/
+.blog-posts{
+	padding: 80px 0;
+}
+.box{
+	width:50%;
+	float: left;
+	padding: 20px;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+}
+.box img{
+	display: block;
+	width: 100%;
+	margin-bottom: 30px;
+
+
+}
+.box.category{}
+.box h1{
+	font-size: 30px;
+	color: #626262;
+	margin-bottom: 30px;
+}
+.box p{}
+
+/*Newsletter Section*/
+.newsletter{
+	background: #f0f0f0;
+	clear: both;
+	padding: 80px 0;
+	text-align: center;
+}
+.newsletter h1{
+	font-size: 30px;
+	color: #626262;
+	margin-bottom: 50px;
+
+}
+.newsletter form{
+	border-bottom: 1px solid #333;
+	width: 30%;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 80px;
+
+}
+.newsletter form input{
+	border: none;
+	padding: 10px;
+	position: absolute;
+	top: -30px;
+	left: 0;
+	width: 80%;
+	background: transparent;
+
+
+}
+.newsletter form img{
+	position: absolute;
+	top: -20px;
+	right: 0;
+
+}
+/*Button Section*/
+.btn{
+	text-align: center;
+	padding-top: 150px;
+	margin-bottom: 50px;
+}
+.Button{
+	text-decoration: none;
+	color: #626262;
+	font-size: 24px;
+	text-transform: uppercase;
+	padding: 20px 30px;
+	border: 1px solid #626262;
+	display: inline-block;
+	transition: all 0.5s linear;
+	}
+	.Button:hover{
+		background: #626262;
+		color: #fff;
+
+	}
+
